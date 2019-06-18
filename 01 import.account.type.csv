@@ -1,0 +1,4 @@
+"External ID";"Account Type";"Code";"P&L / BS Category";"Deferral Method"
+"account_type_cogs";"COGS";"cogs";"expense";"none"
+"account_type_other_income";"Other Income";"other-income";"income";"none"
+"account_type_other_expense";"Other Expense";"other-expense";"expense";"none"

@@ -1,0 +1,75 @@
+"Journal";"Period";"Reference";"Date";"Entries/Name";"Entries/Partner";"Entries/Account";"Entries/debit";"Entries/credit"
+"Opening Entries Journal";"Opening Period 2017";"Saldo Awal";"2017-01-01";"Kas Kecil";;"1-111001";50000000;
+;;;;"Mandiri Personal";;"1-112001";250000000;
+;;;;"Mandiri Bisnis";;"1-112002";100000000;
+;;;;"Muamalat";;"1-112003";50000000;
+;;;;"BNI";;"1-112004";200000000;
+;;;;"BCA";;"1-112005";125000000;
+;;;;"Piutang Usaha";"ABDI SEJAHTERA PAPUA CV";"1-121001";30000000;
+;;;;"Piutang Usaha";"BERDIKARI. UD";"1-121001";20000000;
+;;;;"Piutang Karyawan";;"1-121002";10000000;
+;;;;"Persediaan Daging";;"1-130001";50000000;
+;;;;"Persediaan Ikan";;"1-130002";40000000;
+;;;;"Persediaan Sayuran";;"1-130003";30000000;
+;;;;"Persediaan Keringan";;"1-130004";20000000;
+;;;;"Persediaan Buah";;"1-130005";10000000;
+;;;;"Persediaan Fresh Drink";;"1-130006";5000000;
+;;;;"Persediaan Rokok";;"1-130007";25000000;
+;;;;"Persediaan Makanan";;"1-130008";30000000;
+;;;;"Persediaan Minuman";;"1-130009";40000000;
+;;;;"Persediaan Makanan Olahan";;"1-130010";50000000;
+;;;;"Persediaan Toiletries";;"1-130011";40000000;
+;;;;"Persediaan Buku, ATK ,Asesoris";;"1-130012";10000000;
+;;;;"Persediaan Fashion & Textil";;"1-130013";10000000;
+;;;;"Persediaan Perlengkapan Kebersihan";;"1-130014";25000000;
+;;;;"Persediaan Perlengkapan Rumah Tangga";;"1-130015";30000000;
+;;;;"Bangunan Kantor";;"1-221002";1000000000;
+;;;;"Kendaraan";;"1-221003";200000000;
+;;;;"Perlatan Kantor";;"1-221004";200000000;
+;;;;"Software";;"1-221005";50000000;
+;;;;"Furnitur Kantor";;"1-221006";161000000;
+;;;;"Hutang Usaha";;"2-110001";;100000000
+;;;;"Hutang Pemegang Saham";;"2-110002";;50000000
+;;;;"Cadangan Modal";;"3-121001";;1500000000
+;;;;"Laba Rugi Tahun Lalu";;"3-151001";;800000000
+;;;;"Penjualan Daging";;"4-100001";;80000000
+;;;;"Penjualan Ikan";;"4-100002";;100000000
+;;;;"Penjualan Sayuran";;"4-100003";;80000000
+;;;;"Penjualan Keringan";;"4-100004";;40000000
+;;;;"Penjualan Buah";;"4-100005";;15000000
+;;;;"Penjualan Fresh Drink";;"4-100006";;9000000
+;;;;"Penjualan Rokok";;"4-100007";;40000000
+;;;;"Penjualan Makanan";;"4-100008";;50000000
+;;;;"Penjualan Minuman";;"4-100009";;40000000
+;;;;"Penjualan Makanan Olahan";;"4-100010";;100000000
+;;;;"Penjualan Toiletries";;"4-100011";;50000000
+;;;;"Penjualan Buku, ATK ,Asesoris";;"4-100012";;5000000
+;;;;"Penjualan Fashion & Textil";;"4-100013";;20000000
+;;;;"Penjualan Perlengkapan Kebersihan";;"4-100014";;80000000
+;;;;"Penjualan Perlengkapan Rumah Tangga";;"4-100015";;40000000
+;;;;"HPP Daging";;"5-100001";20000000;
+;;;;"HPP Ikan";;"5-100002";30000000;
+;;;;"HPP Sayuran";;"5-100003";25000000;
+;;;;"HPP Keringan";;"5-100004";10000000;
+;;;;"HPP Buah";;"5-100005";5000000;
+;;;;"HPP Fresh Drink";;"5-100006";2000000;
+;;;;"HPP Rokok";;"5-100007";15000000;
+;;;;"HPP Makanan";;"5-100008";20000000;
+;;;;"HPP Minuman";;"5-100009";15000000;
+;;;;"HPP Makanan Olahan";;"5-100010";30000000;
+;;;;"HPP Toiletries";;"5-100011";20000000;
+;;;;"HPP Buku, ATK ,Asesoris";;"5-100012";2000000;
+;;;;"HPP Fashion & Textil";;"5-100013";4000000;
+;;;;"HPP Perlengkapan Kebersihan";;"5-100014";25000000;
+;;;;"HPP Perlengkapan Rumah Tangga";;"5-100015";30000000;
+;;;;"Gaji Karyawan";;"6-110001";70000000;
+;;;;"Pangan karyawan (catering)";;"6-110004";10000000;
+;;;;"Air Minum";;"6-311001";5000000;
+;;;;"Keperluan Olahraga";;"6-311002";1000000;
+;;;;"Iuran Bulanan";;"6-311003";1000000;
+;;;;"Alat Tulis Kantor";;"6-411001";1000000;
+;;;;"Keperluan Pos";;"6-411002";1000000;
+;;;;"Jilid & Photocopy";;"6-411003";1000000;
+;;;;"Pendapatan Bunga";;"8-110001";;5000000
+;;;;"Debit Central";;"3-900000";3204000000;
+;;;;"Credit Central";;"3-900000";;3204000000

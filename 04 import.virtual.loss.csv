@@ -1,0 +1,19 @@
+External ID,Location Name,Parent Location,Location Type,Stock Valuation Account (Incoming),Stock Valuation Account (Outgoing)
+virtual_1,Inventory Loss Daging,Virtual Locations,Inventory,5-100001,5-100001
+virtual_2,Inventory Loss Ikan,Virtual Locations,Inventory,5-100002,5-100002
+virtual_3,Inventory Loss Sayuran,Virtual Locations,Inventory,5-100003,5-100003
+virtual_4,Inventory Loss Keringan,Virtual Locations,Inventory,5-100004,5-100004
+virtual_5,Inventory Loss Buah,Virtual Locations,Inventory,5-100005,5-100005
+virtual_6,Inventory Loss Fresh Drink,Virtual Locations,Inventory,5-100006,5-100006
+virtual_7,Inventory Loss Rokok,Virtual Locations,Inventory,5-100007,5-100007
+virtual_8,Inventory Loss Makanan,Virtual Locations,Inventory,5-100008,5-100008
+virtual_9,Inventory Loss Minuman,Virtual Locations,Inventory,5-100009,5-100009
+virtual_10,Inventory Loss Makanan Olahan,Virtual Locations,Inventory,5-100010,5-100010
+virtual_11,Inventory Loss Toiletries,Virtual Locations,Inventory,5-100011,5-100011
+virtual_12,"Inventory Loss Buku, ATK ,Asesoris",Virtual Locations,Inventory,5-100012,5-100012
+virtual_13,Inventory Loss Fashion & Textil,Virtual Locations,Inventory,5-100013,5-100013
+virtual_14,Inventory Loss Perlengkapan Kebersihan,Virtual Locations,Inventory,5-100014,5-100014
+virtual_15,Inventory Loss Perlengkapan Rumah Tangga,Virtual Locations,Inventory,5-100015,5-100015
+virtual_16,Inventory Loss Elektronik,Virtual Locations,Inventory,5-100016,5-100016
+virtual_17,Inventory Loss Mainan,Virtual Locations,Inventory,5-100017,5-100017
+virtual_18,Inventory Loss Lainnya,Virtual Locations,Inventory,5-100018,5-100018

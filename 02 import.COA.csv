@@ -1,0 +1,223 @@
+External ID,Code,Name,Parent,Internal Type,Account Type,Allow Reconciliation
+coa_1,1-000000,Aktiva,0,View,Asset View,FALSE
+coa_2,1-100000,Aktiva Lancar,1-000000,View,Asset View,FALSE
+coa_3,1-110000,Kas Dan Setara Kas,1-100000,View,Asset View,FALSE
+coa_4,1-111000,Kas,1-110000,View,Asset View,TRUE
+coa_5,1-111001,Kas Kecil,1-111000,Liquidity,Cash,TRUE
+coa_6,1-111002,Kas Belum Disetor,1-111000,Liquidity,Cash,TRUE
+coa_7,1-112000,Bank,1-110000,View,Asset View,FALSE
+coa_8,1-112001,Mandiri Personal,1-112000,Liquidity,Bank,TRUE
+coa_9,1-112002,Mandiri Bisnis,1-112000,Liquidity,Bank,TRUE
+coa_10,1-112003,Muamalat,1-112000,Liquidity,Bank,TRUE
+coa_11,1-112004,BNI,1-112000,Liquidity,Bank,TRUE
+coa_12,1-112005,BCA,1-112000,Liquidity,Bank,TRUE
+coa_13,1-112006,BNI Giro,1-112000,Liquidity,Bank,TRUE
+coa_14,1-112007,Mandiri Giro,1-112000,Liquidity,Bank,TRUE
+coa_15,1-120000,Piutang,1-100000,View,Asset View,FALSE
+coa_16,1-121001,Piutang Usaha,1-120000,Receivable,Receivable,TRUE
+coa_17,1-121002,Piutang Karyawan,1-120000,Receivable,Receivable,TRUE
+coa_18,1-211003,Piutang Owner,1-120000,Receivable,Receivable,TRUE
+coa_19,1-211004,Piutang lainnya,1-120000,Receivable,Receivable,TRUE
+coa_20,1-130000,Persediaan,1-100000,View,Asset View,FALSE
+coa_21,1-130001,Persediaan Daging,1-130000,Regular,Asset,FALSE
+coa_22,1-130002,Persediaan Ikan,1-130000,Regular,Asset,FALSE
+coa_23,1-130003,Persediaan Sayuran,1-130000,Regular,Asset,FALSE
+coa_24,1-130004,Persediaan Keringan,1-130000,Regular,Asset,FALSE
+coa_25,1-130005,Persediaan Buah,1-130000,Regular,Asset,FALSE
+coa_26,1-130006,Persediaan Fresh Drink,1-130000,Regular,Asset,FALSE
+coa_27,1-130007,Persediaan Rokok,1-130000,Regular,Asset,FALSE
+coa_28,1-130008,Persediaan Makanan,1-130000,Regular,Asset,FALSE
+coa_29,1-130009,Persediaan Minuman,1-130000,Regular,Asset,FALSE
+coa_30,1-130010,Persediaan Makanan Olahan,1-130000,Regular,Asset,FALSE
+coa_31,1-130011,Persediaan Toiletries,1-130000,Regular,Asset,FALSE
+coa_32,1-130012,"Persediaan Buku, ATK ,Asesoris",1-130000,Regular,Asset,FALSE
+coa_33,1-130013,Persediaan Fashion & Textil,1-130000,Regular,Asset,FALSE
+coa_34,1-130014,Persediaan Perlengkapan Kebersihan,1-130000,Regular,Asset,FALSE
+coa_35,1-130015,Persediaan Perlengkapan Rumah Tangga,1-130000,Regular,Asset,FALSE
+coa_36,1-130016,Persediaan Elektronik,1-130000,Regular,Asset,FALSE
+coa_37,1-130017,Persediaan Mainan,1-130000,Regular,Asset,FALSE
+coa_38,1-130018,Persediaan Lainnya,1-130000,Regular,Asset,FALSE
+coa_39,1-140000,Biaya Dibayar Dimuka,1-100000,View,Asset View,FALSE
+coa_40,1-141001,Sewa Bangunan,1-140000,Regular,Asset,FALSE
+coa_41,1-141002,Asuransi Dibayar Dimuka,1-140000,Regular,Asset,FALSE
+coa_42,1-141003,Beban Iklan Dibayar Dimuka,1-140000,Regular,Asset,FALSE
+coa_43,1-180000,Uang Muka Pembelian,1-140000,Regular,Asset,FALSE
+coa_44,1-150000,Pajak Dibayar Dimuka,1-100000,View,Asset View,FALSE
+coa_45,1-151001,Pajak Dibayar Dimuka PPH 22,1-150000,Regular,Asset,FALSE
+coa_46,1-151002,Pajak Dibayar Dimuka PPH 23,1-150000,Regular,Asset,FALSE
+coa_47,1-151003,Pajak Dibayar Dimuka PPH 25,1-150000,Regular,Asset,FALSE
+coa_48,1-200000,Aktiva Tidak Lancar,1-000000,View,Asset View,FALSE
+coa_49,1-220000,Aktiva Tetap,1-200000,View,Asset View,FALSE
+coa_50,1-221001,Tanah ,1-220000,Regular,Asset View,FALSE
+coa_51,1-221002,Bangunan Kantor,1-220000,Regular,Asset,FALSE
+coa_52,1-221003,Kendaraan,1-220000,Regular,Asset,FALSE
+coa_53,1-221004,Perlatan Kantor,1-220000,Regular,Asset,FALSE
+coa_54,1-221005,Software,1-220000,Regular,Asset,FALSE
+coa_55,1-221006,Furnitur Kantor,1-220000,Regular,Asset,FALSE
+coa_56,1-228000,Akumulasi Penyusutan Aktiva Tetap,1-220000,View,Asset View,FALSE
+coa_57,1-228101,Akum Peny Bangunan Kantor,1-228000,Regular,Asset,FALSE
+coa_58,1-228102,Akum Peny Kendaraan Kendaraan,1-228000,Regular,Asset,FALSE
+coa_59,1-228103,Akum Peny Peralatan Kantor,1-228000,Regular,Asset,FALSE
+coa_60,1-228104,Akum Peny Software,1-228000,Regular,Asset,FALSE
+coa_61,1-228105,Akum Peny Furnitur Kantor,1-228000,Regular,Asset,FALSE
+coa_62,2-000000,Hutang,0,View,Liability View,FALSE
+coa_63,2-100000,Hutang Jangka Pendek,2-000000,View,Liability View,FALSE
+coa_64,2-110001,Hutang Usaha,2-100000,Payable,Payable,TRUE
+coa_65,2-110002,Hutang Pemegang Saham,2-100000,Payable,Payable,TRUE
+coa_66,2-110003,Hutang Pihak Ketiga,2-100000,Payable,Payable,TRUE
+coa_67,2-110004,Hutang Gaji,2-100000,Payable,Payable,TRUE
+coa_68,2-120000,Hutang Pajak,2-100000,View,Liability View,FALSE
+coa_69,2-121001,Hutang Pajak PPh 21,2-120000,Regular,Liability,TRUE
+coa_70,2-121002,Hutang Pajak PPh 23,2-120000,Regular,Liability,TRUE
+coa_71,2-121003,Hutang Pajak PPh 25,2-120000,Regular,Liability,TRUE
+coa_72,2-121004,Hutang Pajak Pasal 4 (2),2-120000,Regular,Liability,TRUE
+coa_73,2-121005,Hutang Pajak PPh 29,2-120000,Regular,Liability,TRUE
+coa_74,2-122000,Hutang PPN,2-100000,View,Liability View,FALSE
+coa_75,2-122101,PPN Keluaran,2-122000,Regular,Liability,FALSE
+coa_76,2-122102,PPN Masukan,2-122000,Regular,Liability,FALSE
+coa_77,2-200000,Hutang Jangka Panjang,2-000000,View,Liability View,FALSE
+coa_78,2-211001,Hutang Bank,2-200000,Regular,Liability,FALSE
+coa_79,2-211002,Hutang Leasing,2-200000,Regular,Liability,FALSE
+coa_80,2-500000,Biaya Yang Masih Harus Dibayar,2-000000,View,Liability View,FALSE
+coa_81,2-511001,BYMHD Listrik ,2-500000,Regular,Liability,FALSE
+coa_82,2-511002,BYMHD Jamsostek ,2-500000,Regular,Liability,FALSE
+coa_83,2-511003,BYMHD Air,2-500000,Regular,Liability,FALSE
+coa_84,2-511004,BYMHD Telepon ,2-500000,Regular,Liability,FALSE
+coa_85,2-511005,BYMHD Jasa Pengelola Keamanan,2-500000,Regular,Liability,FALSE
+coa_86,2-511006,BYMHD Bank,2-500000,Regular,Liability,FALSE
+coa_87,2-511007,BYMHD PBB,2-500000,Regular,Liability,FALSE
+coa_88,2-511008,BYMHD Izin Usaha,2-500000,Regular,Liability,FALSE
+coa_89,2-511009,BYMHD Asuransi,2-500000,Regular,Liability,FALSE
+coa_90,2-511010,BYMHD Pendidikan dan Latihan,2-500000,Regular,Liability,FALSE
+coa_91,2-511011,BYMHD Jaminan Kesehatan/BPJS,2-500000,Regular,Liability,FALSE
+coa_92,2-800000,"Uang Muka, Deposit, Poin Bonus",2-000000,View,Liability View,FALSE
+coa_93,2-811001,Uang Muka Penjualan,2-800000,Regular,Liability,FALSE
+coa_94,2-811002,Deposit Customer,2-800000,Regular,Liability,FALSE
+coa_95,2-811003,Poin Bonus,2-800000,Regular,Liability,FALSE
+coa_96,2-900000,Stock Interim,2-000000,Regular,Liability,FALSE
+coa_97,3-000000,EKUITAS,0,View,Equity,FALSE
+coa_98,3-110001,Modal Dasar,3-000000,Regular,Equity,FALSE
+coa_99,3-110002,Modal Yang Disetor,3-000000,Regular,Equity,FALSE
+coa_100,3-110003,Modal Yang Belum Disetor,3-000000,Regular,Equity,FALSE
+coa_101,3-110004,Prive (Pengambilan Pribadi),3-000000,Regular,Equity,FALSE
+coa_102,3-120000,Cadangan Modal,3-000000,View,Equity,FALSE
+coa_103,3-121001,Cadangan Modal,3-120000,Regular,Equity,FALSE
+coa_104,3-150000,Laba Rugi,3-000000,View,Equity,FALSE
+coa_105,3-151001,Laba Rugi Tahun Lalu,3-150000,Regular,Equity,FALSE
+coa_106,3-151002,Laba Rugi Tahun Berjalan,3-150000,Regular,Equity,FALSE
+coa_107,3-900000,Historical Balance,3-000000,Regular,Equity,FALSE
+coa_108,4-000000,Penjualan,0,View,Income View,FALSE
+coa_109,4-100001,Penjualan Daging,4-000000,Regular,Income,FALSE
+coa_110,4-100002,Penjualan Ikan,4-000000,Regular,Income,FALSE
+coa_111,4-100003,Penjualan Sayuran,4-000000,Regular,Income,FALSE
+coa_112,4-100004,Penjualan Keringan,4-000000,Regular,Income,FALSE
+coa_113,4-100005,Penjualan Buah,4-000000,Regular,Income,FALSE
+coa_114,4-100006,Penjualan Fresh Drink,4-000000,Regular,Income,FALSE
+coa_115,4-100007,Penjualan Rokok,4-000000,Regular,Income,FALSE
+coa_116,4-100008,Penjualan Makanan,4-000000,Regular,Income,FALSE
+coa_117,4-100009,Penjualan Minuman,4-000000,Regular,Income,FALSE
+coa_118,4-100010,Penjualan Makanan Olahan,4-000000,Regular,Income,FALSE
+coa_119,4-100011,Penjualan Toiletries,4-000000,Regular,Income,FALSE
+coa_120,4-100012,"Penjualan Buku, ATK ,Asesoris",4-000000,Regular,Income,FALSE
+coa_121,4-100013,Penjualan Fashion & Textil,4-000000,Regular,Income,FALSE
+coa_122,4-100014,Penjualan Perlengkapan Kebersihan,4-000000,Regular,Income,FALSE
+coa_123,4-100015,Penjualan Perlengkapan Rumah Tangga,4-000000,Regular,Income,FALSE
+coa_124,4-100016,Penjualan Elektronik,4-000000,Regular,Income,FALSE
+coa_125,4-100017,Penjualan Mainan,4-000000,Regular,Income,FALSE
+coa_126,4-100018,Penjualan Lainnya,4-000000,Regular,Income,FALSE
+coa_127,4-20005,Pendapatan Biaya Kirim,4-000000,Regular,Income,FALSE
+coa_128,4-20006,Retur Penjualan,4-000000,Regular,Income,FALSE
+coa_129,4-20007,Discount Penjualan,4-000000,Regular,Income,FALSE
+coa_130,5-000000,Harga Pokok Penjualan (HPP),0,View,COGS,FALSE
+coa_131,5-100001,HPP Daging,5-000000,Regular,COGS,FALSE
+coa_132,5-100002,HPP Ikan,5-000000,Regular,COGS,FALSE
+coa_133,5-100003,HPP Sayuran,5-000000,Regular,COGS,FALSE
+coa_134,5-100004,HPP Keringan,5-000000,Regular,COGS,FALSE
+coa_135,5-100005,HPP Buah,5-000000,Regular,COGS,FALSE
+coa_136,5-100006,HPP Fresh Drink,5-000000,Regular,COGS,FALSE
+coa_137,5-100007,HPP Rokok,5-000000,Regular,COGS,FALSE
+coa_138,5-100008,HPP Makanan,5-000000,Regular,COGS,FALSE
+coa_139,5-100009,HPP Minuman,5-000000,Regular,COGS,FALSE
+coa_140,5-100010,HPP Makanan Olahan,5-000000,Regular,COGS,FALSE
+coa_141,5-100011,HPP Toiletries,5-000000,Regular,COGS,FALSE
+coa_142,5-100012,"HPP Buku, ATK ,Asesoris",5-000000,Regular,COGS,FALSE
+coa_143,5-100013,HPP Fashion & Textil,5-000000,Regular,COGS,FALSE
+coa_144,5-100014,HPP Perlengkapan Kebersihan,5-000000,Regular,COGS,FALSE
+coa_145,5-100015,HPP Perlengkapan Rumah Tangga,5-000000,Regular,COGS,FALSE
+coa_146,5-100016,HPP Elektronik,5-000000,Regular,COGS,FALSE
+coa_147,5-100017,HPP Mainan,5-000000,Regular,COGS,FALSE
+coa_148,5-100018,HPP Lainnya,5-000000,Regular,COGS,FALSE
+coa_149,6-000000,Beban Administrasi dan Umum,0,View,Expense,FALSE
+coa_150,6-100000,Beban Gaji & Upah,6-000000,View,Expense View,FALSE
+coa_151,6-110001,Gaji Karyawan,6-100000,Regular,Expense,FALSE
+coa_152,6-110002,Tunjangan/ Bonus Karyawan,6-100000,Regular,Expense,FALSE
+coa_153,6-110003,Tunjangan Kesehatan Karyawan,6-100000,Regular,Expense,FALSE
+coa_154,6-110004,Pangan karyawan (catering),6-100000,Regular,Expense,FALSE
+coa_155,6-110005,Lembur Karyawan ,6-100000,Regular,Expense,FALSE
+coa_156,6-110006,Fee Jasa Keamanan,6-100000,Regular,Expense,FALSE
+coa_157,6-110007,Pakaian Kerja,6-100000,Regular,Expense,FALSE
+coa_158,6-110008,Tunjangan Ulang Tahun Karyawan,6-100000,Regular,Expense,FALSE
+coa_159,6-110009,Tunjangan Melahirkan Karyawan,6-100000,Regular,Expense,FALSE
+coa_160,6-110010,Tunjangan PPH Pasal 21,6-100000,Regular,Expense,FALSE
+coa_161,6-200000,Beban Marketing dan Penjualan,6-000000,View,Expense View,FALSE
+coa_162,6-211001,Free Gift,6-200000,Regular,Expense,FALSE
+coa_163,6-211002,Event ,6-200000,Regular,Expense,FALSE
+coa_164,6-211003,Advertising,6-200000,Regular,Expense,FALSE
+coa_165,6-211004,Pengiriman Barang Dagang,6-200000,Regular,Expense,FALSE
+coa_166,6-300000,Keperluan Kantor,6-000000,View,Expense View,FALSE
+coa_167,6-311001,Air Minum,6-300000,Regular,Expense,FALSE
+coa_168,6-311002,Keperluan Olahraga,6-300000,Regular,Expense,FALSE
+coa_169,6-311003,Iuran Bulanan,6-300000,Regular,Expense,FALSE
+coa_170,6-311004,Sumbangan,6-300000,Regular,Expense,FALSE
+coa_171,6-311005,Internet,6-300000,Regular,Expense,FALSE
+coa_172,6-311006,Telepon,6-300000,Regular,Expense,FALSE
+coa_173,6-311007,Pulsa ,6-300000,Regular,Expense,FALSE
+coa_174,6-311008,Listrik,6-300000,Regular,Expense,FALSE
+coa_175,6-311009,PDAM,6-300000,Regular,Expense,FALSE
+coa_176,6-311010,Research & Development,6-300000,Regular,Expense,FALSE
+coa_177,6-311011,Keperluan Dapur,6-300000,Regular,Expense,FALSE
+coa_178,6-311012,Perlengkapan Kantor,6-300000,Regular,Expense,FALSE
+coa_179,6-311013,P3K,6-300000,Regular,Expense,FALSE
+coa_180,6-311014,Keperluan Lain-lain,6-300000,Regular,Expense,FALSE
+coa_181,6-311015,K3 (Pemadam Kebakaran),6-300000,Regular,Expense,FALSE
+coa_182,6-311016,Perlengkapan Kebersihan,6-300000,Regular,Expense,FALSE
+coa_183,6-311018,Keperluan Owner,6-300000,Regular,Expense,FALSE
+coa_184,6-400000,Biaya Kantor,6-000000,View,Expense View,FALSE
+coa_185,6-411001,Alat Tulis Kantor,6-400000,Regular,Expense,FALSE
+coa_186,6-411002,Keperluan Pos,6-400000,Regular,Expense,FALSE
+coa_187,6-411003,Jilid & Photocopy,6-400000,Regular,Expense,FALSE
+coa_188,6-411004,Iklan Lowongan Kerja,6-400000,Regular,Expense,FALSE
+coa_189,6-411005,Materai,6-400000,Regular,Expense,FALSE
+coa_190,6-500000,Biaya Kantor Lainnya,6-000000,View,Expense View,FALSE
+coa_191,6-511001,Biaya Perizinan,6-500000,Regular,Expense,FALSE
+coa_192,6-511002,Biaya Administrasi Bank,6-500000,Regular,Expense,FALSE
+coa_193,6-511003,Biaya Konsultan,6-500000,Regular,Expense,FALSE
+coa_194,6-511004,Biaya Sewa,6-500000,Regular,Expense,FALSE
+coa_195,6-511006,Biaya Pemeliharaan & Perawatan Gedung,6-500000,Regular,Expense,FALSE
+coa_196,6-511007,"Biaya Perawatan Instalasi Listrik, telepon, internet",6-500000,Regular,Expense,FALSE
+coa_197,6-511008,Pajak,6-500000,Regular,Expense,FALSE
+coa_198,6-511009,Akomodasi Tamu,6-500000,Regular,Expense,FALSE
+coa_199,6-511010,Biaya Pemeliharaan & Perawatan Aset,6-500000,Regular,Expense,FALSE
+coa_200,6-511011,Biaya Pengiriman Dokumen/Barang,6-500000,Regular,Expense,FALSE
+coa_201,6-600000,Biaya Kendaraan,6-000000,View,Expense View,FALSE
+coa_202,6-611001,BBM kendaraan,6-600000,Regular,Expense,FALSE
+coa_203,6-611002,Service kendaraan,6-600000,Regular,Expense,FALSE
+coa_204,6-611003,Parkir & tol kendaraan,6-600000,Regular,Expense,FALSE
+coa_205,6-611004,Pajak Kendaraan,6-600000,Regular,Expense,FALSE
+coa_206,6-611005,Asuransi Kendaraan,6-600000,Regular,Expense,FALSE
+coa_207,6-700000,Beban Penyusutan,6-000000,View,Expense View,FALSE
+coa_208,6-710001,Tanah ,6-700000,Regular,Expense,FALSE
+coa_209,6-710002,Bangunan Kantor,6-700000,Regular,Expense,FALSE
+coa_210,6-710003,Kendaraan,6-700000,Regular,Expense,FALSE
+coa_211,6-710004,Perlatan Kantor,6-700000,Regular,Expense,FALSE
+coa_212,6-710005,Software,6-700000,Regular,Expense,FALSE
+coa_213,6-710006,Furnitur Kantor,6-700000,Regular,Expense,FALSE
+coa_214,6-900000,Biaya Lain-lain,6-700000,Regular,Expense,FALSE
+coa_215,8-000000,Pendapatan Lain - lain,0,View,Other Income,FALSE
+coa_216,8-110001,Pendapatan Bunga,8-000000,Regular,Other Income,FALSE
+coa_217,8-110002,Pendapatan Deposit,8-000000,Regular,Other Income,FALSE
+coa_218,8-110009,Keuntungan Atas Penjualan Aktiva Tetap,8-000000,Regular,Other Income,FALSE
+coa_219,9-000000,Beban Lain - lain,0,View,Other Expense,FALSE
+coa_220,9-110001,Beban Bunga,9-000000,Regular,Other Expense,FALSE
+coa_221,9-110002,Beban Administrasi Bank,9-000000,Regular,Other Expense,FALSE
+coa_222,9-110009,Kerugian Atas Penjualan Aktiva Tetap,9-000000,Regular,Other Expense,FALSE

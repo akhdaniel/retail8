@@ -1,0 +1,19 @@
+External ID,name,expense account,income account,stock input account,stock output account,stock valuation account
+categ_1,Persediaan Daging,5-100001,4-100001,2-900000,2-900000,1-130001
+categ_2,Persediaan Ikan,5-100002,4-100002,2-900000,2-900000,1-130002
+categ_3,Persediaan Sayuran,5-100003,4-100003,2-900000,2-900000,1-130003
+categ_4,Persediaan Keringan,5-100004,4-100004,2-900000,2-900000,1-130004
+categ_5,Persediaan Buah,5-100005,4-100005,2-900000,2-900000,1-130005
+categ_6,Persediaan Fresh Drink,5-100006,4-100006,2-900000,2-900000,1-130006
+categ_7,Persediaan Rokok,5-100007,4-100007,2-900000,2-900000,1-130007
+categ_8,Persediaan Makanan,5-100008,4-100008,2-900000,2-900000,1-130008
+categ_9,Persediaan Minuman,5-100009,4-100009,2-900000,2-900000,1-130009
+categ_10,Persediaan Makanan Olahan,5-100010,4-100010,2-900000,2-900000,1-130010
+categ_11,Persediaan Toiletries,5-100011,4-100011,2-900000,2-900000,1-130011
+categ_12,"Persediaan Buku, ATK ,Asesoris",5-100012,4-100012,2-900000,2-900000,1-130012
+categ_13,Persediaan Fashion & Textil,5-100013,4-100013,2-900000,2-900000,1-130013
+categ_14,Persediaan Perlengkapan Kebersihan,5-100014,4-100014,2-900000,2-900000,1-130014
+categ_15,Persediaan Perlengkapan Rumah Tangga,5-100015,4-100015,2-900000,2-900000,1-130015
+categ_16,Persediaan Elektronik,5-100016,4-100016,2-900000,2-900000,1-130016
+categ_17,Persediaan Mainan,5-100017,4-100017,2-900000,2-900000,1-130017
+categ_18,Persediaan Lainnya,5-100018,4-100018,2-900000,2-900000,1-130018

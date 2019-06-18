@@ -1,0 +1,4 @@
+"External ID","Unit of Measure","Unit of Measure Category","Type","factor_inv"
+"uom_pcs","pcs","Unit","reference",1
+"uom_karton_24","Karton 24","Unit","bigger",24
+"uom_karton_36","Karton 36","Unit","bigger",36
